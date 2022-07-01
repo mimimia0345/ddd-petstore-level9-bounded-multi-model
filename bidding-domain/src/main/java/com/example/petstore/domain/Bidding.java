@@ -1,10 +1,10 @@
-package biddinglv.domain;
+package com.example.petstore.domain;
 
-import biddinglv.ReservationApplication;
-import biddinglv.domain.BiddingAttended;
-import biddinglv.domain.BiddingRequestReceived;
-import biddinglv.domain.BiddingRsltReceived;
-import biddinglv.domain.BiddingRsltRequested;
+import com.example.petstore.ReservationApplication;
+import com.example.petstore.domain.BiddingAttended;
+import com.example.petstore.domain.BiddingRequestReceived;
+import com.example.petstore.domain.BiddingRsltReceived;
+import com.example.petstore.domain.BiddingRsltRequested;
 import java.util.Date;
 import java.util.List;
 import javax.persistence.*;
