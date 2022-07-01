@@ -8,11 +8,11 @@ import com.example.petstore.domain.BiddingRsltRequested;
 import java.util.Date;
 import java.util.List;
 import javax.persistence.*;
-import lombok.Data;
+// import lombok.Data;
 
 @Entity
 @Table(name = "Bidding_table")
-@Data
+// @Data
 public class Bidding {
 
     private Long biddingId;
