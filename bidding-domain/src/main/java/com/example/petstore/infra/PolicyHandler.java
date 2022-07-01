@@ -19,8 +19,8 @@ public class PolicyHandler {
     @Autowired
     BiddingRepository biddingRepository;
 
-    @Autowired
-    GameReservationRepository gameReservationRepository;
+    //@Autowired
+    //GameReservationRepository gameReservationRepository;
 
     @StreamListener(KafkaProcessor.INPUT)
     public void whatever(@Payload String eventString) {}
