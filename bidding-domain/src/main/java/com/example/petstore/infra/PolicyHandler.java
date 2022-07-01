@@ -1,7 +1,7 @@
-package biddinglv.infra;
+package com.example.petstore.infra;
 
-import biddinglv.config.kafka.KafkaProcessor;
-import biddinglv.domain.*;
+import com.example.petstore.kafka.KafkaProcessor;
+import com.example.petstore.domain.*;
 import com.fasterxml.jackson.databind.DeserializationFeature;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import javax.naming.NameParser;
