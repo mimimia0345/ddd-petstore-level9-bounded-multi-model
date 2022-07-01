@@ -1,7 +1,7 @@
-package biddinglv.domain;
+package com.example.petstore.domain;
 
-import biddinglv.domain.*;
-import biddinglv.infra.AbstractEvent;
+import com.example.petstore.domain.*;
+import com.example.petstore.infra.AbstractEvent;
 import java.util.Date;
 import lombok.Data;
 
