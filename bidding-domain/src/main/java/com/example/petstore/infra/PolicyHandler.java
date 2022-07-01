@@ -1,4 +1,4 @@
-package com.example.petstore.infra;
+package com.example.petstore;
 
 import com.example.petstore.kafka.KafkaProcessor;
 import com.example.petstore.domain.*;
