@@ -1,6 +1,6 @@
-package biddinglv;
+package com.example.petstore;
 
-import biddinglv.config.kafka.KafkaProcessor;
+import com.example.petstore.kafka.KafkaProcessor;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.openfeign.EnableFeignClients;
