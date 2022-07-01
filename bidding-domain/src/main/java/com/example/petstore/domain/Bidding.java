@@ -7,7 +7,10 @@ import com.example.petstore.domain.BiddingRsltReceived;
 import com.example.petstore.domain.BiddingRsltRequested;
 import java.util.Date;
 import java.util.List;
-import javax.persistence.*;
+import javax.persistence.DiscriminatorValue;
+import javax.persistence.Entity;
+import javax.persistence.PostPersist;
+import javax.persistence.*
 // import lombok.Data;
 
 @Entity
@@ -28,6 +31,9 @@ public class Bidding {
     private Long biddingAmount;
 
     private String biddingStatus;
+    
+     
+
 
     @PostPersist
     public void onPostPersist() {
