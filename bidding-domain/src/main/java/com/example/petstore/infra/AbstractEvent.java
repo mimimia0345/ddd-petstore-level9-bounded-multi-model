@@ -1,7 +1,7 @@
-package biddinglv.infra;
+package com.example.petstore.infra;
 
-import biddinglv.ReservationApplication;
-import biddinglv.config.kafka.KafkaProcessor;
+import com.example.petstore.ReservationApplication;
+import com.example.petstore.kafka.KafkaProcessor;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.springframework.beans.BeanUtils;
