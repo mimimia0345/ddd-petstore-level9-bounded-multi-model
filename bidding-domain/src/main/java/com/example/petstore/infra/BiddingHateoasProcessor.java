@@ -1,6 +1,6 @@
-package biddinglv.infra;
+package com.example.petstore.infra;
 
-import biddinglv.domain.*;
+import com.example.petstore.domain.*;
 import org.springframework.hateoas.EntityModel;
 import org.springframework.hateoas.Link;
 import org.springframework.hateoas.server.RepresentationModelProcessor;
