@@ -1,7 +1,6 @@
 package com.example.petstore;
 
-import com.example.petstore.domain.Cat;
-import com.example.petstore.domain.Pet;
+import com.example.petstore.domain.Bidding;
 
 import org.springframework.hateoas.EntityModel;
 import org.springframework.hateoas.Link;
