@@ -1,6 +1,6 @@
-package biddinglv.infra;
+package com.example.petstore.infra;
 
-import biddinglv.domain.*;
+import com.example.petstore.domain.*;
 import java.util.Optional;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
