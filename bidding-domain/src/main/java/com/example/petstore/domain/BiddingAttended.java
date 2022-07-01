@@ -3,9 +3,9 @@ package com.example.petstore.domain;
 import com.example.petstore.domain.*;
 import com.example.petstore.infra.AbstractEvent;
 import java.util.Date;
-import lombok.Data;
+// import lombok.Data;
 
-@Data
+// @Data
 public class BiddingAttended extends AbstractEvent {
 
     private Long biddingId;
